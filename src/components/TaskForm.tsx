@@ -12,7 +12,7 @@ interface FormProps {
 
 
 export const TaskForm: React.FC<FormProps> = ({ onSubmit }: FormProps) => {
-  const [dateValue, onChange] = useState(new Date());
+  const dateValue = new Date();
   const convertDate = (date: Date) => {
     return date.toDateString()
   }
@@ -28,7 +28,7 @@ export const TaskForm: React.FC<FormProps> = ({ onSubmit }: FormProps) => {
   
   function handleInputChange(event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     const { name, value } = event.target;
-    name == "reminder" ? setFormData({ ...formData, reminder: !formData.reminder }) : setFormData({ ...formData, [name]: value });
+    name === "reminder" ? setFormData({ ...formData, reminder: !formData.reminder }) : setFormData({ ...formData, [name]: value });
   }
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
