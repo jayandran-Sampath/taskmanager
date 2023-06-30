@@ -2,21 +2,23 @@
   border: 1px solid white;
   position: relative;
   text-align: left;
-  background: #F2F9E5;
+  background: #000000;
   border-radius: 5px;
   padding-left: 20px;
   box-shadow: 5px 5px 10px 1px #000;
+  color: white;
 }
 
 .task-true {
+  color: white;
   border: 1px solid white;
   position: relative;
   text-align: left;
-  background: #F2F9E5;
+  background: #000000;
   border-radius: 5px;
   padding-left: 20px;
   box-shadow: 5px 5px 10px 1px #000;
-  background: linear-gradient(90deg, #24DCA7 2%, #F2F9E5 2%);
+  background: linear-gradient(90deg, #3faff4 2%, #000 2%);
 }
 
 .task-description {

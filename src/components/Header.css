@@ -12,7 +12,7 @@
     padding: 10px;
 }
 
-.Header-button {
+/* .Header-button {
     position: relative;
     background-color: #4CAF50;
     border: none;
@@ -25,21 +25,4 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
-}
-
-.Task-form {
-    border-radius: 5px;
-    background-color: #f5f7f2;
-    padding: 20px;
-}
-
-.Task-form label{
-    width: 150px;
-    text-align: left;
-    float: left;
-}
-
-.Task-form input{
-    text-align: left;
-    float: left;
-}
+} */

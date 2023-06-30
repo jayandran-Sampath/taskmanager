@@ -4,6 +4,7 @@ import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
 import { Value } from 'react-calendar/dist/cjs/shared/types';
 import { BiCalendar } from "react-icons/bi";
+import "./TaskForm.css";
 
 
 interface FormProps {
